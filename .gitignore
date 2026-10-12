@@ -1,0 +1,36 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# JavaScript dependencies and builds
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# Local configuration and logs
+.vscode/
+.idea/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local databases and generated data
+backend/*.db
+backend/**/*.db
+
+# Python virtual environments
+backend/venv/
